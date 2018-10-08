@@ -1,0 +1,86 @@
+jemter  监控服务器资源
+1.需要安装jdk
+2.服务器也需要安装jdk
+
+jdk下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+jmter  添加cpu监控 JMeterPlugins-Standard-1.4.0.zip
+                   ServerAgent-2.2.1.zip
+https://blog.csdn.net/xieyuemin/article/details/50394000
+
+
+jmter监控服务器指标解释：http://www.51testing.com/html/82/n-3720082.html
+
+安装python自动化教程   https://blog.csdn.net/nanalinlinlin/article/details/54692114
+
+python 自动化参数化，需要安装 pip install xlrd  安装框架所需 pip  install pyyaml pip install PyYaml
+
+python自动化打开表格需要安装：pip install xlrd，pip install xlwt，pip install xlutils
+
+依赖关系安装
+pip install jsonpath-rw
+
+数据库：pip install pymysql
+
+获取图片：pip install pillow
+
+关于图片：pip install pytesseract
+
+上传图片工具安装：http://www.cnblogs.com/sunjump/p/7268805.html
+
+pycharm破解教程：www.taitaiblog.com/1038.html  加：http://idea.lanyus.com
+
+python接口测试https://blog.csdn.net/temanm/article/details/49406131
+
+python自动化框架 https://blog.csdn.net/huilan_same/article/details/76572411
+python自动化接口框架 http://www.cnblogs.com/fengsiyi/p/7206855.html
+
+所有浏览器驱动文档：https://blog.csdn.net/xc_zhou/article/details/80871369
+python自动化测试框架的搭建：https://www.jianshu.com/p/2d85bf14e9b1
+
+移动端自动化测试 https://www.cnblogs.com/fnng/p/4540731.html
+http://www.androiddevtools.cn/python
+移动端自动化 pip install Appium-Python-Client
+1.首先安装手机模拟器
+2.安装Appium
+3.python语言需要安装pip install Appium-Python-Client
+
+1.参数化设置 CSV Data Set Config
+D:\test.txt
+
+utf-8
+
+patientName,emrCode
+
+
+选项，函数对话框
+${__CSVRead(D:\test.txt,0)}
+
+${__CSVRead(D:\test.txt,1)}
+
+正则表达式
+data
+
+.*"data":"(.*)"
+
+$1$           
+
+1
+文本检测+
+//tbody//div[contains(text(),'加急')]/../../td[2]/div
+
+jenkins：https://blog.csdn.net/RonnyJiang/article/details/51208009
+进入cmd，先进入\jenkins\jenkins.war
+输入java -jar jenkins.war 
+https://blog.csdn.net/liujingqiu/article/details/50988393 构建Jenkins
+yanhui 123456
+
+无法生成HTML:https://blog.csdn.net/Momorrine/article/details/79832497
+上传图片编辑WinActivate("文件上传");
+ControlSetText("文件上传", "", "Edit1", "D:\add1.png" );
+Sleep(2000);ControlClick("文件上传", "", "Button1");
+python自动化测试学习https://blog.csdn.net/dreamchasering/article/details/73335577
+https://github.com/dreamchasering/selenium-demo
+https://github.com/626626cdllp/Test/tree/master/Test_framework
+我的代码管理https://github.com/yanxianhui/UI_ZDH
+18652-D989-6A3D-5607-3F3E
